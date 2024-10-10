@@ -17,8 +17,10 @@ public class Intro {
         Student student1;
         //This line dynamically allocates the memory at runtime and returns a reference to it(student1).
         //Reference is stored in student1 variable.
-        student1=new Student();
-        System.out.println(student1.marks);
+        student1=new Student(23,"Shreekrishna",90);
+        Student student2=new Student(23,"Abhilash",90);
+        Student student3=new Student(student1);
+        student3.greeting();
 
     }
 
@@ -26,6 +28,24 @@ public class Intro {
         int roll_no;
         String name;
         float marks;
+        Student(){
+            this.roll_no=10;
+            this.name="Shreekrishna Hegde";
+            this.marks=90;
+        }
+        void greeting(){
+            System.out.println("Hello "+name+ " you have scored "+this.marks+" Congrats!");
+        }
+        Student(int roll_no,String name,float marks){
+            this.roll_no=roll_no;
+            this.marks=marks;
+            this.name=name;
+        }
+        Student(Student other){
+            this.roll_no=other.roll_no;
+            this.name=other.name;
+            this.marks=other.marks;
+        }
     }
 }
 /*

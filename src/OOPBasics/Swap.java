@@ -26,5 +26,8 @@ public class Swap {
 ->If final is before a primitive data types, the value of it can never be cahnged.
 ->If it is for the object..
 ->Garbage Collection
+->Classes, objects, constructors, keywords
+->Packages are nothing but folders.
+
 
  */

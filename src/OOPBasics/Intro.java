@@ -46,7 +46,7 @@ public class Intro {
             this.name=other.name;
             this.marks=other.marks;
         }
-        //calling construcutor from another constructor
+        //calling constructor from another constructor
 //        Student(){
 //            this(13,"K",50);
 //        }

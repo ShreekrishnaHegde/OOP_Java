@@ -30,4 +30,7 @@ public class StaticKeyword {
 ->They can be called without creating an object. Non-static functions belong to individual instances of a class.
 ->They require an object to be called. Hence, non-static function "panda" cannot be accessed from static function.
  ->But you can use "panda" by declaring it as static.
+
+ ->Why main is declared as static
+
  */

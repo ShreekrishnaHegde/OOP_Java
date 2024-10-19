@@ -63,5 +63,27 @@ public class Intro {
 ->The variables inside object are called instance variable.
 ->Dot operator links reference variable and instance variable.
 ->Constructor is a special function that runs when you create an object and it allocates some variables.
-->
+->Java deleted the objects automatically! you cant decide when to delete the object
+    but you can tell what do do when the objects gets destroyed.
+
+
+Class and objects
+properties of objects and classes
+creating and accessing objects
+memory allocation of objects
+dynamic memory allocation pf objects
+constructor and its types
+this keyword
+constructor overloading
+calling constructor from another constructor
+new keyword
+final keyword
+garbage collection
+wrapper classes
+Inner Class
+Outside class cannot be static
+
+import staements
+java packages
+
  */

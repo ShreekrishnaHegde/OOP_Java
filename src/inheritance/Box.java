@@ -13,9 +13,11 @@ public class Box{
 
     //Cube
     Box(double side){
+//        super();
         this.l=side;
         this.h=side;
         this.w=side;
+
     }
 
     Box(double l, double h, double w){
@@ -33,3 +35,9 @@ public class Box{
         System.out.println("Hey!");
     }
 }
+/*
+----------super keyword--------
+->to class the keyword
+->Differene between super.weight and this.weight --when the name of two fields are same.. to specify the class
+->
+ */

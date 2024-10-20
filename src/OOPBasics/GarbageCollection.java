@@ -21,6 +21,4 @@ class A{
     protected void finalize() throws Throwable{
         System.out.println("Object is destroyeed");
     }
-
-
 }

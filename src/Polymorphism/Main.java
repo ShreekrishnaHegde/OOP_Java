@@ -43,4 +43,17 @@ Types of polymorphism
     Overriding depends on objects static does not depend on objects
         hence static methods cannot be overridden.
         overloading and overriding does not apply to instance variable.
+
+
+
+-------Encapsulation------
+wrapping up the implementation of data members and methods in a class
+-----------Abstraction---------
+Hiding unnecessary details and showing valuable information
+
+Car Example
+Abstraction is solving the design level issue.
+Encapsulation is solving the implementation level issue.
+Abstraction is the process of gaining info.
+Encapsulation is the process of containing the info.
  */

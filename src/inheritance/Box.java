@@ -13,11 +13,10 @@ public class Box{
 
     //Cube
     Box(double side){
-//        super();
+        super();
         this.l=side;
         this.h=side;
         this.w=side;
-
     }
 
     Box(double l, double h, double w){

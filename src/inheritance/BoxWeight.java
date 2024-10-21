@@ -21,12 +21,17 @@ public class BoxWeight extends Box{
         super(other);
         weight=other.weight;
     }
+    public BoxWeight(double side,double weight){
+        super(side);
+        this.weight=weight;
+    }
     public BoxWeight(double l,double h, double w, double weight){
         super(l,h,w);//used to initialize the values in parents class constructor
         this.weight=weight;
 //        System.out.println(super.h);
 
     }
+
 }
 /*
 But private variables cannot be used outside the class.Even private varibles.

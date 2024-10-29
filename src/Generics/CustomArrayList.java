@@ -58,3 +58,11 @@ public class CustomArrayList {
     }
 
 }
+/*
+You can only store integers in above arraylist.
+Generics helps us in parameterising the types
+
+primitives cannot be added with generics.
+
+
+ */
